@@ -6,5 +6,17 @@ if a %2==0 and b%2==0:
         print("both number are even ")
 elif a%2!=0 and b%2!=0:
         print("both number are odd ")
-if a%2==0 or b%2==0:
-        print("one nnumber is even number other is odd")    
+
+# Check variable a
+if a % 2 == 0:
+    a = "even"
+else:
+    a = "odd"
+
+# Check variable b
+if b % 2 == 0:
+    b = "even"
+else:
+    b = "odd"
+
+
