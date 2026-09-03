@@ -7,7 +7,7 @@
 # multiplication(4)  
 def multiplication_table(n, count=1):
     # Base case: stop after multiplying up to 10 (or any limit you choose)
-    if count > 11:
+    if count > 10:
         return
     
     # Print the current multiplication step
